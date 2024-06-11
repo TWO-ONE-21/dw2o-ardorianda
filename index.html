@@ -3,10 +3,14 @@
 
 <head>
     <title>Artikel - Ardo Rianda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="gambar_source/favicon.ico" type="image/x-icon">
     <style>
         body {
             background-color: #2C3333;
-            font-family: sans-serif;
+            font-family: Lexend Deca;
             color: #CBE4DE;
         }
 
@@ -32,7 +36,13 @@
             list-style: none;
             display: inline;
             margin-right: 35px;
+        }
+
+        .navigasi_tugas {
+
+            padding: 5px 7px;
             background-color: #2E4F4F;
+            border-radius: 7px;
         }
 
         .navigasi_tugas {
@@ -58,7 +68,9 @@
         .login {
             background-color: #00f7ff;
             color: #2E4F4F;
-            padding: 10px 15px;
+            padding: 15px 20px;
+            border: 1px;
+            border-radius: 5px;
         }
 
         .pencarian_div {
@@ -71,9 +83,11 @@
         }
 
         img {
-            width: 150px;
-            height: 150px;
+            width: 160px;
+            height: 160px;
             margin-right: 15px;
+            align-items: center;
+
         }
 
         .list_artikel {
@@ -83,7 +97,7 @@
 
         .artikel_ {
             display: flex;
-            margin-bottom: 20px;
+            margin-top: 30px;
         }
 
         span {
@@ -98,6 +112,53 @@
         a {
             text-decoration: none;
             color: #CBE4DE;
+            margin-top: 50px;
+        }
+
+        aside {
+            padding-top: 80px;
+            position: fixed;
+            float: right;
+            /*tanya*/
+            margin-right: 20px;
+            max-width: 230px;
+        }
+
+        input {
+            background-image: url('gambar_source/cari.png');
+            background-repeat: no-repeat;
+            background-position: 10px 10px;
+            padding: 10px 10px 10px 40px;
+            border: 1px;
+            border-radius: 5px;
+            width: 174px;
+            margin-bottom: 10px;
+        }
+
+        .populer {
+            font-family: sans-serif;
+        }
+
+        time {
+            font-size: small;
+            margin-bottom: 20px;
+        }
+
+        .populer_judul {
+            margin-bottom: 0px;
+            color: #00f7ff;
+            font-weight: 300;
+        }
+
+
+        /* tanya */
+        a.populer_ {
+            margin-bottom: 50px;
+        }
+
+        .navigasi_full_nav a:hover {
+            background-color: #27a5a5;
+            color: #dfdfdf;
         }
     </style>
 </head>
@@ -110,16 +171,16 @@
             </div>
             <ul class="navigasi_tidakFull_ul">
                 <li>
-                    <a class="navigasi_tugas" href="/tugas1.html">Tugas 1</a>
+                    <a class="navigasi_tugas" href="list_tugas/tugas1.html">Tugas 1</a>
                 </li>
                 <li>
-                    <a class="navigasi_tugas" href="/tugas2.html">Tugas 2</a>
+                    <a class="navigasi_tugas" href="list_tugas/tugas2.html">Tugas 2</a>
                 </li>
                 <li>
-                    <a class="navigasi_tugas" href="/tugas3.html">Tugas 3</a>
+                    <a class="navigasi_tugas" href="list_tugas/tugas3.html">Tugas 3</a>
                 </li>
                 <li>
-                    <a class="navigasi_tugas" href="/tugas4.html">Tugas 4</a>
+                    <a class="navigasi_tugas" href="list_tugas/tugas4.html">Tugas 4</a>
                 </li>
                 <li>
                     <a class="navigasi_tugas" href="/index.html">Tugas 5</a>
@@ -132,6 +193,55 @@
             </ul>
         </nav>
     </header>
+    <aside class="sidebar">
+        <div class="pencarian">
+            <input type="text" placeholder="Pencarian...">
+        </div>
+        <div class="populer">
+            <h3>Artikel Populer</h3>
+            <a class="populer_" href="#artikel_1">
+                <p class="populer_judul">
+                    Black Hole: Apa Itu Black Hole?
+                </p>
+                <time>
+                    12 Maret 2024
+                </time>
+            </a>
+            <a class="populer_" href="#artikel_2">
+                <p class="populer_judul">
+                    Ganymede: Mengenal Satelit Alami Planet Jupiter
+                </p>
+                <time>
+                    12 Maret 2024
+                </time>
+            </a>
+            <a class="populer_" href="#artikel_3">
+                <p class="populer_judul">
+                    Sejarah dan Latar Belakang Pemberontakan Morotai
+                </p>
+                <time>
+                    12 Maret 2024
+                </time>
+            </a>
+            <a class="populer_" href="#artikel_4">
+                <p class="populer_judul">
+                    Sanherib, Maharaja Asyur yang Sangat Berpengaruh
+                </p>
+                <time>
+                    12 Maret 2024
+                </time>
+            </a>
+            <a class="populer_" href="#artikel_5">
+                <p class="populer_judul">
+                    Tokoh Reformasi Ottoman: Kisah Mehmed Talaat Pasha
+                </p>
+                <time>
+                    12 Maret 2024
+                </time>
+            </a>
+        </div>
+        </div>
+    </aside>
     <article>
         <section class="list_artikel">
             <h2 class="judul_list"><u>Daftar Artikel</u></h2>
@@ -141,7 +251,7 @@
                         <img src="gambar_source/blackhole.jpg" alt="zz">
                         <div>
                             <span>Artikel 1</span>
-                            <h3>Blackhole: Apa itu black hole?</h3>
+                            <h3>Blackhole: Apa Itu Black Hole?</h3>
                             <p class="spoiler">Lubang hitam atau black hole adalah bagian dari ruang waktu yang memiliki
                                 gravitasi paling kuat, bahkan cahaya sekalipun tidak dapat menghindar. Teori relativitas
                                 umum memprediksi bahwa diperlukan massa yang besar untuk menciptakan sebuah lubang hitam
@@ -150,6 +260,7 @@
                         </div>
                     </div>
                 </a>
+                <hr>
                 <a href="#artikel_2">
                     <div class="artikel_">
                         <img src="gambar_source/ganymede.png" alt="zz">
@@ -160,11 +271,11 @@
                                 satelit alami terbesar di Tata Surya. Ganymede adalah satelit ketujuh di Tata Surya dan
                                 satelit Galileo ketiga dari jupiter. Satelit ini mengitari planetnya selama tujuh hari
                                 dan sebagian besar terdiri dari batu silikat dan es air. Ganymede merupakan benda langit
-                                yang berdiferensiasi sepenuhnya dengan inti yang cair, kaya akan. . . . .</p>
+                                yang berdiferensiasi sepenuhnya. . . . .</p>
                         </div>
                     </div>
                 </a>
-                </a>
+                <hr>
                 <a href="#artikel_3">
                     <div class="artikel_">
                         <img src="gambar_source/Caldwell.jpg" alt="zz">
@@ -175,11 +286,11 @@
                                 melibatkan anggota Australian First Tactical Air Force yang berpangkalan di Pulau
                                 Morotai, Hindia Belanda. Delapan pilot senior, termasuk penerbang ulung Australia,
                                 Kapten Grup Clive Caldwell, menyatakan pengunduran diri mereka untuk memprotes suatu hal
-                                yang mereka anggap sebagai penurunan pangkat terhadap. . . . .</p>
+                                yang mereka anggap sebagai. . . . .</p>
                         </div>
                     </div>
                 </a>
-                </a>
+                <hr>
                 <a href="#artikel_4">
                     <div class="artikel_">
                         <img src="gambar_source/Sanherib.jpg" alt="zz">
@@ -194,7 +305,7 @@
                         </div>
                     </div>
                 </a>
-                </a>
+                <hr>
                 <a href="#artikel_5">
                     <div class="artikel_">
                         <img src="gambar_source/Talat_Pasha.jpg" alt="zz">
@@ -209,11 +320,20 @@
                         </div>
                     </div>
                 </a>
+                <hr>
             </div>
             </div>
             </a>
             </div>
         </section>
+        <main>
+            <div class="artikel_full">
+                <div class="artikel1_">
+                    <img src="gambar_source/blackhole.jpg" alt="gambar blackhole">
+
+                </div>
+            </div>
+        </main>
     </article>
 </body>
 
