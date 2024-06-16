@@ -1,7 +1,8 @@
 body {
-    background-color: black;
+    background-color: white;
     font-family: Lexend Deca;
     color: #CBE4DE;
+    margin: 0;
 }
 
 svg {
@@ -15,7 +16,7 @@ svg {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    width: 99%;
+    width: 100%;
     height: 70px;
     font-size: large;
     background-color: #50727B;
@@ -130,7 +131,7 @@ aside {
     filter: drop-shadow(1px 1px 3px black);
 }
 
-input {
+.cari {
     background-image: url('gambar_source/cari.png');
     background-repeat: no-repeat;
     background-position: 10px 10px;
@@ -193,7 +194,7 @@ main span {
 }
 
 .artikelFull_anak {
-    max-width: 80%;
+    max-width: 75%;
     margin-left: 20px;
     padding-top: 40px;
 }
@@ -216,4 +217,70 @@ img.gambarFull {
 
 .artikelFull_induk {
     background-color: white;
+}
+
+.komentar {
+    background-color: white;
+    color: black;
+    max-width: 55%;
+    margin-left: 20px;
+    padding-top: 40px;
+    margin: auto;
+}
+
+.jdlkomen {
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    display: grid;
+}
+
+.form_anak {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    padding: 0 15px;
+}
+
+.form_anak1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 80px;
+    border-radius: 3px;
+    border: 1px solid #000000;
+    padding: 15px;
+}
+
+.submit {
+    height: 40px;
+    background-color: #35374B;
+    border: none;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+}
+
+footer {
+    background-color: #344955;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.logo_sosmed img {
+    width: 32px;
+    height: 32px;
+    margin-right: 0;
+}
+
+.menu {
+    padding: 30px;
+}
+
+.cr {
+    padding-bottom: 30px;
 }
