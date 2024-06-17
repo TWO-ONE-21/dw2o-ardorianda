@@ -3,19 +3,19 @@
 
 <head>
     <title>Artikel - Ardo Rianda</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="gambar_source/favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="gambar_source/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <nav class="navigasi_full_nav">
             <div class="namaWeb_div">
-                <a href="/index.html">Ardo Rianda</a>
+                <img class="logo" src="gambar_source/logo.png" <a href="/index.html">Ardo Rianda</a>
             </div>
             <ul class="navigasi_tidakFull_ul">
                 <li>
@@ -34,9 +34,7 @@
                     <a class="navigasi_tugas" href="/index.html">Tugas 5</a>
                 </li>
                 <li>
-                    <a href="login.html">
-                        <button type="button" class="login">Masuk</button>
-                    </a>
+                    <a class="login" href="sign-up.html">Buat Akun</a>
                 </li>
             </ul>
         </nav>
@@ -88,16 +86,15 @@
                 </time>
             </a>
         </div>
-        </div>
     </aside>
     <div class="gelap">
-        <article>
+        <div class="article">
             <section class="list_artikel">
                 <h2 class="judul_list"><u>Daftar Artikel</u></h2>
                 <div class="artikel">
                     <a href="#artikel_1">
                         <div class="artikel_">
-                            <img src="gambar_source/blackhole.jpg" alt="zz">
+                            <img class="gambar" src="gambar_source/blackhole.jpg" alt="zz">
                             <div>
                                 <span>Artikel 1</span>
                                 <h3>Blackhole: Apa Itu Black Hole?</h3>
@@ -115,7 +112,7 @@
                     <hr>
                     <a href="#artikel_2">
                         <div class="artikel_">
-                            <img src="gambar_source/ganymede.png" alt="zz">
+                            <img class="gambar" src="gambar_source/ganymede.png" alt="zz">
                             <div>
                                 <span>Artikel 2</span>
                                 <h3>Ganymede: Mengenal Satelit Alami Planet Jupiter</h3>
@@ -133,7 +130,7 @@
                     <hr>
                     <a href="#artikel_3">
                         <div class="artikel_">
-                            <img src="gambar_source/Caldwell.jpg" alt="zz">
+                            <img class="gambar" src="gambar_source/Caldwell.jpg" alt="zz">
                             <div>
                                 <span>Artikel 3</span>
                                 <h3>Sejarah dan Latar Belakang Pemberontakan Morotai</h3>
@@ -149,7 +146,7 @@
                     <hr>
                     <a href="#artikel_4">
                         <div class="artikel_">
-                            <img src="gambar_source/Sanherib.jpg" alt="zz">
+                            <img class="gambar" src="gambar_source/Sanherib.jpg" alt="zz">
                             <div>
                                 <span>Artikel 4</span>
                                 <h3>Sanherib, Maharaja Asyur yang Sangat Berpengaruh</h3>
@@ -166,7 +163,7 @@
                     <hr>
                     <a href="#artikel_5">
                         <div class="artikel_">
-                            <img src="gambar_source/Talat_Pasha.jpg" alt="zz">
+                            <img class="gambar" src="gambar_source/Talat_Pasha.jpg" alt="zz">
                             <div>
                                 <span>Artikel 5</span>
                                 <h3>Tokoh Reformasi Ottoman: Kisah Mehmed Talaat Pasha</h3>
@@ -182,11 +179,8 @@
                         </div>
                     </a>
                 </div>
-    </div>
-    </a>
-    </div>
-    </section>
-    </article>
+            </section>
+        </div>
     </div>
     <!-- wave dibawah, saya buat di 'https://getwaves.io/', pak hehe.. -->
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -194,244 +188,303 @@
             d="M0,32L34.3,48C68.6,64,137,96,206,112C274.3,128,343,128,411,117.3C480,107,549,85,617,112C685.7,139,754,213,823,234.7C891.4,256,960,224,1029,197.3C1097.1,171,1166,149,1234,122.7C1302.9,96,1371,64,1406,48L1440,32L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
         </path>
     </svg>
-    <h1 class="judulBesar">Artikel Selengkapnya</h1>
-    <main class="artikelFull_induk">
-        <div class="artikelFull_anak" id="artikel_1">
-            <span class="span1">
-                Artikel 1
-            </span>
-            <h2 class="judulfull">
-                Blackhole: Apa Itu Blackhole?
-            </h2>
-            <div class="isiGambar">
-                <img class="gambarFull" src="gambar_source/blackhole.jpg" alt="Ilustrasi Blackhole">
-                <p>
-                    Lubang hitam atau black hole adalah bagian dari ruang waktu yang memiliki gravitasi paling kuat,
-                    bahkan cahaya sekalipun tidak dapat menghindar. Teori relativitas umum memprediksi bahwa diperlukan
-                    massa yang besar untuk menciptakan sebuah lubang hitam yang berada di ruang waktu. Di sekitar lubang
-                    hitam terdapat permukaan yang disebut horizon peristiwa. Objek ini disebut "hitam" karena menyerap
-                    apapun yang berada di sekitarnya dan tidak dapat kembali lagi, termasuk cahaya.</p>
-                <p>
-                    Secara teoritis, lubang hitam dapat memiliki ukuran sebesar apapun, dari mikroskopik sampai ke
-                    ukuran alam raya yang dapat diamati. Teori medan kuantum dalam ruang-waktu melengkung memprediksi
-                    bahwa horizon peristiwa memancarkan radiasi disekitarnya dengan suhu yang terbatas. Suhu ini
-                    berbanding lurus dengan massa lubang hitam, sehingga sulit untuk diamati lubang hitam bermassa
-                    bintang atau lebih.
-                </p>
-                <p>
-                    Teori mengenai adanya lubang hitam pertama kali diusulkan pada abad ke-18 oleh John Michell dan
-                    Pierre-Simon Laplace, selanjutnya dikembangkan oleh astronom Jerman bernama Karl Schwarzschild, pada
-                    tahun 1916, dengan berdasar pada teori relativitas umum dari Albert Einstein, dan semakin
-                    dipopulerkan oleh Stephen William Hawking.
-                </p>
-                <p>
-                    Massa lubang hitam terus bertambah dengan cara menangkap semua materi di dekatnya. Semua materi
-                    tidak bisa lari dari jeratan lubang hitam jika melintas terlalu dekat dengannya. Oleh karena itu
-                    obyek yang tidak bisa menjaga jarak yang aman dari lubang hitam akan terhisap. Bisa jadi suatu saat
-                    nanti, matahari, bumi dan bulan pun dapat terhisap pula oleh lubang hitam.
-                </p>
+    <main class="terang">
+        <h1 class="judulBesar">Artikel Selengkapnya</h1>
+        <article>
+            <div class="artikelFull_anak" id="artikel_1">
+                <span class="span1">
+                    Artikel 1
+                </span>
+                <h2 class="judulfull">
+                    Blackhole: Apa Itu Blackhole?
+                </h2>
+                <div class="isiGambar">
+                    <img class="gambarFull" src="gambar_source/blackhole.jpg" alt="Ilustrasi Blackhole">
+                    <p>
+                        Lubang hitam atau black hole adalah bagian dari ruang waktu yang memiliki gravitasi paling kuat,
+                        bahkan cahaya sekalipun tidak dapat menghindar. Teori relativitas umum memprediksi bahwa
+                        diperlukan
+                        massa yang besar untuk menciptakan sebuah lubang hitam yang berada di ruang waktu. Di sekitar
+                        lubang
+                        hitam terdapat permukaan yang disebut horizon peristiwa. Objek ini disebut "hitam" karena
+                        menyerap
+                        apapun yang berada di sekitarnya dan tidak dapat kembali lagi, termasuk cahaya.</p>
+                    <p>
+                        Secara teoritis, lubang hitam dapat memiliki ukuran sebesar apapun, dari mikroskopik sampai ke
+                        ukuran alam raya yang dapat diamati. Teori medan kuantum dalam ruang-waktu melengkung
+                        memprediksi
+                        bahwa horizon peristiwa memancarkan radiasi disekitarnya dengan suhu yang terbatas. Suhu ini
+                        berbanding lurus dengan massa lubang hitam, sehingga sulit untuk diamati lubang hitam bermassa
+                        bintang atau lebih.
+                    </p>
+                    <p>
+                        Teori mengenai adanya lubang hitam pertama kali diusulkan pada abad ke-18 oleh John Michell dan
+                        Pierre-Simon Laplace, selanjutnya dikembangkan oleh astronom Jerman bernama Karl Schwarzschild,
+                        pada
+                        tahun 1916, dengan berdasar pada teori relativitas umum dari Albert Einstein, dan semakin
+                        dipopulerkan oleh Stephen William Hawking.
+                    </p>
+                    <p>
+                        Massa lubang hitam terus bertambah dengan cara menangkap semua materi di dekatnya. Semua materi
+                        tidak bisa lari dari jeratan lubang hitam jika melintas terlalu dekat dengannya. Oleh karena itu
+                        obyek yang tidak bisa menjaga jarak yang aman dari lubang hitam akan terhisap. Bisa jadi suatu
+                        saat
+                        nanti, matahari, bumi dan bulan pun dapat terhisap pula oleh lubang hitam.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="artikelFull_anak" id="artikel_2">
-            <span>
-                Artikel 2
-            </span>
-            <h2 class="judulfull">
-                Ganymede: Mengenal Satelit Alami Planet Jupiter
-            </h2>
-            <div class="isiGambar">
-                <img class="gambarFull" src="gambar_source/ganymede.png" alt="Ilustrasi Ganymede">
-                <p>
-                    Ganimede adalah satelit alami planet Jupiter dan merupakan satelit alami terbesar di Tata Surya.
-                    Ganimede adalah satelit terbesar ketujuh di Tata Surya dan satelit Galileo ketiga dari Jupiter.
-                    Satelit ini mengitari planetnya selama tujuh hari. Ganimede turut serta dalam resonansi orbit 1:2:4
-                    dengan satelit Europa dan Io. Satelit ini lebih besar diameternya dibanding planet Merkurius, namun
-                    massanya hanya sekitar setengahnya.</p>
-                <p>
-                    Satelit ini sebagian besar terdiri dari batu silikat dan es air. Ganimede merupakan benda langit
-                    yang berdiferensiasi sepenuhnya dengan inti yang cair, kaya akan besi. Samudra air asin dipercaya
-                    ada pada hampir 200 km di bawah permukaan Ganimede, yang diapit lapisan-lapisan es. Permukaannya
-                    terdiri dari dua macam bentuk medan permukaan. Daerah gelap, yang penuh akan kawah tubrukan yang
-                    berasal dari hingga 4 miliar tahun yang lalu, menutupi sepertiga permukaan satelit itu. Daerah yang
-                    lebih terang, yang dilewati oleh alur-alur dan punggung bukit yang besar dan hanya sedikit lebih
-                    tua, menutupi sisanya. Penyebab kacaunya geologi medan permukaan terang itu tidak sepenuhnya
-                    diketahui, namun mungkin karena aktivitas tektonik yang ditimbulkan oleh pemanasan pasang-surut.
-                </p>
-                <p>
-                    Ganimede adalah satu-satunya satelit dalam Tata Surya yang diketahui memiliki magnetosfer, yang
-                    mungkin timbul karena konveksi dalam inti besi cairnya. Magnetosfer yang kecil itu terkubur oleh
-                    medan magnet Jupiter yang jauh lebih besar dan terhubung dengannya lewat garis medan terbuka.
-                    Satelit itu mempunyai atmosfer oksigen tipis yang termasuk O, O2, dan mungkin O3 (ozon). Hidrogen
-                    atomik adalah penyusun atmosfer yang sedikit. Apakah satelit itu mempunyai ionosfer yang berkaitan
-                    dengan atmosfernya masih belum diketahui.
-                </p>
-                <p>
-                    Orang yang dihargai sebagai penemu Ganimede adalah Galileo Galilei. Ia merupakan astronom pertama
-                    yang mengamati satelit ini pada tahun 1610. Nama satelit itu segera diusulkan oleh astronom
-                    Simon Marius. Marius mengusulkan Ganimede, pembawa cangkir dewa-dewi Yunani dan kesayangan Zeus.
-                    Semenjak misi Pioneer 10, wahana angkasa telah mampu memeriksa Ganimede dari dekat. Wahana
-                    Voyager memperbaiki pengukuran terhadapnya, sedangkan wahana Galileo menemukan samudra bawah tanah
-                    dan medan magnetnya. Misi baru ke satelit-satelit es Jupiter, Europa Jupiter System Mission (EJSM)
-                    diusulkan untuk diluncurkan pada tahun 2020.
-                </p>
+            <div class="artikelFull_anak" id="artikel_2">
+                <span class="span1">
+                    Artikel 2
+                </span>
+                <h2 class="judulfull">
+                    Ganymede: Mengenal Satelit Alami Planet Jupiter
+                </h2>
+                <div class="isiGambar">
+                    <img class="gambarFull" src="gambar_source/ganymede.png" alt="Ilustrasi Ganymede">
+                    <p>
+                        Ganimede adalah satelit alami planet Jupiter dan merupakan satelit alami terbesar di Tata Surya.
+                        Ganimede adalah satelit terbesar ketujuh di Tata Surya dan satelit Galileo ketiga dari Jupiter.
+                        Satelit ini mengitari planetnya selama tujuh hari. Ganimede turut serta dalam resonansi orbit
+                        1:2:4
+                        dengan satelit Europa dan Io. Satelit ini lebih besar diameternya dibanding planet Merkurius,
+                        namun
+                        massanya hanya sekitar setengahnya.</p>
+                    <p>
+                        Satelit ini sebagian besar terdiri dari batu silikat dan es air. Ganimede merupakan benda langit
+                        yang berdiferensiasi sepenuhnya dengan inti yang cair, kaya akan besi. Samudra air asin
+                        dipercaya
+                        ada pada hampir 200 km di bawah permukaan Ganimede, yang diapit lapisan-lapisan es. Permukaannya
+                        terdiri dari dua macam bentuk medan permukaan. Daerah gelap, yang penuh akan kawah tubrukan yang
+                        berasal dari hingga 4 miliar tahun yang lalu, menutupi sepertiga permukaan satelit itu. Daerah
+                        yang
+                        lebih terang, yang dilewati oleh alur-alur dan punggung bukit yang besar dan hanya sedikit lebih
+                        tua, menutupi sisanya. Penyebab kacaunya geologi medan permukaan terang itu tidak sepenuhnya
+                        diketahui, namun mungkin karena aktivitas tektonik yang ditimbulkan oleh pemanasan pasang-surut.
+                    </p>
+                    <p>
+                        Ganimede adalah satu-satunya satelit dalam Tata Surya yang diketahui memiliki magnetosfer, yang
+                        mungkin timbul karena konveksi dalam inti besi cairnya. Magnetosfer yang kecil itu terkubur oleh
+                        medan magnet Jupiter yang jauh lebih besar dan terhubung dengannya lewat garis medan terbuka.
+                        Satelit itu mempunyai atmosfer oksigen tipis yang termasuk O, O2, dan mungkin O3 (ozon).
+                        Hidrogen
+                        atomik adalah penyusun atmosfer yang sedikit. Apakah satelit itu mempunyai ionosfer yang
+                        berkaitan
+                        dengan atmosfernya masih belum diketahui.
+                    </p>
+                    <p>
+                        Orang yang dihargai sebagai penemu Ganimede adalah Galileo Galilei. Ia merupakan astronom
+                        pertama
+                        yang mengamati satelit ini pada tahun 1610. Nama satelit itu segera diusulkan oleh astronom
+                        Simon Marius. Marius mengusulkan Ganimede, pembawa cangkir dewa-dewi Yunani dan kesayangan Zeus.
+                        Semenjak misi Pioneer 10, wahana angkasa telah mampu memeriksa Ganimede dari dekat. Wahana
+                        Voyager memperbaiki pengukuran terhadapnya, sedangkan wahana Galileo menemukan samudra bawah
+                        tanah
+                        dan medan magnetnya. Misi baru ke satelit-satelit es Jupiter, Europa Jupiter System Mission
+                        (EJSM)
+                        diusulkan untuk diluncurkan pada tahun 2020.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="artikelFull_anak" id="artikel_3">
-            <span>
-                Artikel 3
-            </span>
-            <h2 class="judulfull">
-                Sejarah dan Latar Belakang Pemberontakan Morotai
-            </h2>
-            <div class="isiGambar">
-                <img class="gambarFull" src="gambar_source/Caldwell.jpg" alt="">
-                <p>
-                    "Pemberontakan Morotai" adalah sebuah insiden bulan April 1945 yang melibatkan anggota Australian
-                    First Tactical Air Force yang berpangkalan di Pulau Morotai, Hindia Belanda. Delapan pilot senior,
-                    termasuk penerbang ulung Australia, Kapten Grup Clive Caldwell, menyatakan pengunduran diri mereka
-                    untuk memprotes suatu hal yang mereka anggap sebagai penurunan pangkat terhadap skadron tempur Royal
-                    Australian Air Force (RAAF) yang dipindahtugaskan ke misi-misi serangan darat tak penting dari segi
-                    strategi melawan pasukan Jepang yang sudah dilewati oleh kampanye "lompat pulau" Sekutu.
-                    Penyelidikan pemerintah menyatakan bahwa para "pemberontak", dan tiga perwira berpangkat tinggi di
-                    First Tactical Air Force Headquarters, termasuk sang komandan, Komodor Udara Harry Cobby, penerbang
-                    ulung Australian Flying Corps semasa Perang Dunia I, dipecat dari jabatannya.
-                </p>
-                <p>
-                    George Odgers meringkas penyebab insiden dalam sejarah resmi RAAF pada Perang Dunia II ini sebagai
-                    "keyakinan sekelompok pemimpin muda bahwa mereka sedang terlibat dalam pertempuran yang tidak dapat
-                    dibenarkan secara militer—keyakinan yang juga diaminkan oleh banyak tentara dan pemimpin politik
-                    Australia." Odgers berpendapat bahwa penyelidikan yang diadakan sesudahnya "membuktikan bahwa hampir
-                    semua orang yang terlibat bertindak dengan motif tertinggi, dan yakin bahwa dalam krisis tersebut ia
-                    mengambil keputusan dengan bijak".
-                </p>
-                <p>
-                    First Tactical Air Force (No. 1 TAF) di bawah pimpinan Komodor Udara Harry Cobby merupakan formasi
-                    tempur garis depan utama RAAF pada tahun 1944 hingga 1945. Pasukan ini berada di dalam lingkup
-                    kendali operasional Letnan Jenderal George Kenney dari Pasukan Udara Angkatan Darat Amerika Serikat
-                    (USAAF), komandan angkatan udara Sekutu di Wilayah Pasifik Barat Daya di bawah kepemimpinan Jenderal
-                    Douglas MacArthur. Awalnya No. 1 TAF terdiri dari satu pesawat Bristol Beaufighter dan dua P-40
-                    Kittyhawk, kemudian dibantu oleh No. 80 Wing yang dipimpin Kapten Grup Clive Caldwell pada tahun
-                    1945. Pasukan tersebut terdiri dari tiga skadron Supermarine Spitfire yang pilot-pilotnya merupakan
-                    veteran Kampanye Afrika Utara dan pertahanan Australia Utara terhadap serangan udara Jepang.
-                </p>
-                <p>
-                    Pada awal 1945, kekuatan udara Jepang di Pasifik Barat Daya sudah terpuruk. Angkatan Darat Amerika
-                    Serikat berfokus menyelesaikan pencaplokan kembali Filipina sebagai batu loncatan untuk penyerbuan
-                    ke Jepang. Waktu itu, No. 1 TAF ditugaskan menjadi garnisun dan menyerang pangkalan-pangkalan Jepang
-                    di pulau-pulau yang dilewati pasukan MacArthur. Kepala Staf Udara, Wakil Marsekal Udara George
-                    Jones, kemudian mengatakan bahwa RAAF, seperti dikutip dari sejarawan Angkatan Udara Alan Stephens,
-                    "disingkirkan dari kemenangan akhir atas Jepang oleh MacArthur yang menginginkan kejayaan untuk
-                    dirinya sendiri". Penerbang Korps Marinir AS dari komando Air North Solomons juga percaya bahwa
-                    markas MacArthur lebih memilih USAAF untuk menangani pertempuran.
-                </p>
+            <div class="artikelFull_anak" id="artikel_3">
+                <span class="span1">
+                    Artikel 3
+                </span>
+                <h2 class="judulfull">
+                    Sejarah dan Latar Belakang Pemberontakan Morotai
+                </h2>
+                <div class="isiGambar">
+                    <img class="gambarFull" src="gambar_source/Caldwell.jpg" alt="">
+                    <p>
+                        "Pemberontakan Morotai" adalah sebuah insiden bulan April 1945 yang melibatkan anggota
+                        Australian
+                        First Tactical Air Force yang berpangkalan di Pulau Morotai, Hindia Belanda. Delapan pilot
+                        senior,
+                        termasuk penerbang ulung Australia, Kapten Grup Clive Caldwell, menyatakan pengunduran diri
+                        mereka
+                        untuk memprotes suatu hal yang mereka anggap sebagai penurunan pangkat terhadap skadron tempur
+                        Royal
+                        Australian Air Force (RAAF) yang dipindahtugaskan ke misi-misi serangan darat tak penting dari
+                        segi
+                        strategi melawan pasukan Jepang yang sudah dilewati oleh kampanye "lompat pulau" Sekutu.
+                        Penyelidikan pemerintah menyatakan bahwa para "pemberontak", dan tiga perwira berpangkat tinggi
+                        di
+                        First Tactical Air Force Headquarters, termasuk sang komandan, Komodor Udara Harry Cobby,
+                        penerbang
+                        ulung Australian Flying Corps semasa Perang Dunia I, dipecat dari jabatannya.
+                    </p>
+                    <p>
+                        George Odgers meringkas penyebab insiden dalam sejarah resmi RAAF pada Perang Dunia II ini
+                        sebagai
+                        "keyakinan sekelompok pemimpin muda bahwa mereka sedang terlibat dalam pertempuran yang tidak
+                        dapat
+                        dibenarkan secara militer—keyakinan yang juga diaminkan oleh banyak tentara dan pemimpin politik
+                        Australia." Odgers berpendapat bahwa penyelidikan yang diadakan sesudahnya "membuktikan bahwa
+                        hampir
+                        semua orang yang terlibat bertindak dengan motif tertinggi, dan yakin bahwa dalam krisis
+                        tersebut ia
+                        mengambil keputusan dengan bijak".
+                    </p>
+                    <p>
+                        First Tactical Air Force (No. 1 TAF) di bawah pimpinan Komodor Udara Harry Cobby merupakan
+                        formasi
+                        tempur garis depan utama RAAF pada tahun 1944 hingga 1945. Pasukan ini berada di dalam lingkup
+                        kendali operasional Letnan Jenderal George Kenney dari Pasukan Udara Angkatan Darat Amerika
+                        Serikat
+                        (USAAF), komandan angkatan udara Sekutu di Wilayah Pasifik Barat Daya di bawah kepemimpinan
+                        Jenderal
+                        Douglas MacArthur. Awalnya No. 1 TAF terdiri dari satu pesawat Bristol Beaufighter dan dua P-40
+                        Kittyhawk, kemudian dibantu oleh No. 80 Wing yang dipimpin Kapten Grup Clive Caldwell pada tahun
+                        1945. Pasukan tersebut terdiri dari tiga skadron Supermarine Spitfire yang pilot-pilotnya
+                        merupakan
+                        veteran Kampanye Afrika Utara dan pertahanan Australia Utara terhadap serangan udara Jepang.
+                    </p>
+                    <p>
+                        Pada awal 1945, kekuatan udara Jepang di Pasifik Barat Daya sudah terpuruk. Angkatan Darat
+                        Amerika
+                        Serikat berfokus menyelesaikan pencaplokan kembali Filipina sebagai batu loncatan untuk
+                        penyerbuan
+                        ke Jepang. Waktu itu, No. 1 TAF ditugaskan menjadi garnisun dan menyerang pangkalan-pangkalan
+                        Jepang
+                        di pulau-pulau yang dilewati pasukan MacArthur. Kepala Staf Udara, Wakil Marsekal Udara George
+                        Jones, kemudian mengatakan bahwa RAAF, seperti dikutip dari sejarawan Angkatan Udara Alan
+                        Stephens,
+                        "disingkirkan dari kemenangan akhir atas Jepang oleh MacArthur yang menginginkan kejayaan untuk
+                        dirinya sendiri". Penerbang Korps Marinir AS dari komando Air North Solomons juga percaya bahwa
+                        markas MacArthur lebih memilih USAAF untuk menangani pertempuran.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="artikelFull_anak" id="artikel_4">
-            <span>
-                Artikel 4
-            </span>
-            <h2 class="judulfull">
-                Sanherib, Maharaja Asyur yang Sangat Berpengaruh
-            </h2>
-            <div class="isiGambar">
-                <img class="gambarFull" src="gambar_source/Sanherib.jpg" alt="">
-                <p>
-                    Sanherib (aksara paku Asyur Baru: Sanherib pada silinder Rassam cylinder kolom pertama baris ke-25
-                    Sîn-ahhī-erība atau Sîn-aḥḥē-erība, artinya "Sîn sudah mengganti saudara-saudaraku yang telah
-                    tiada") adalah Maharaja Asyur Baru yang memerintah sejak kemangkatan ayahnya, Sargon II, pada
-                    tahun 705 SM sampai dengan akhir hayatnya pada tahun 681 SM. Raja kedua dari Wangsa Sargon ini
-                    terbilang salah seorang Raja Asyur yang paling ternama karena sepak terjangnya tercatat di dalam
-                    Alkitab Perjanjian Lama, yakni kampanye militer yang dilancarkannya di Syam. Peristiwa-peristiwa
-                    lain yang berlangsung pada masa pemerintahannya adalah penghancuran kota Babel pada tahun 689 SM,
-                    dan pemugaran sekaligus pemekaran kota besar Niniwe, ibu kota terakhir bangsa Asyur.
-                </p>
-                <p>
-                    Sekalipun terbilang salah seorang Raja Asyur yang paling berkuasa, Sanherib tetap saja kewalahan
-                    mengendalikan Kerajaan Babel yang merupakan bagian selatan dari wilayah Kemaharajaan Asyur Baru.
-                    Biang keladi sebagian besar masalah di Babel adalah Marduk-apla-idina II, pemimpin orang Kasdim
-                    yang menjadi Raja Babel sebelum ditaklukkan ayah Sanherib. Tidak lama sesudah Sanherib naik takhta
-                    pada tahun 705 SM, Marduk-apla-idina merebut Babel dan menjalin persekutuan dengan orang Elam.
-                    Meskipun Sanherib berhasil menguasai kembali kawasan selatan pada tahun 700 SM, Marduk-apla-idina
-                    masih terus merongrong kekuasaannya, kemungkinan besar dengan cara menghasut raja-raja bawahan Asyur
-                    di Syam untuk memberontak sehingga menyulut Perang Syam pada tahun 701 SM, maupun dengan jalan
-                    memerangi Bel-ibni, Raja Babel yang diangkat Sanherib. Sesudah Babel dan Elam menawan dan menghukum
-                    mati Asyur-nadin-syumi, putra sulung Sanherib yang diangkat menjadi raja baru Babel, Sanherib
-                    memerangi kedua kerajaan itu, bahkan berhasil menaklukkan Elam. Karena Babel berada di dalam wilayah
-                    kedaulatannya, sudah berulang kali harus ia perangi, dan sudah merenggut nyawa putranya, Sanherib
-                    akhirnya menghancurkan kota itu pada tahun 689 SM.
-                </p>
-                <p>
-                    Dalam Perang Syam, kerajaan-kerajaan di kawasan selatan Syam, khususnya Kerajaan Yehuda di bawah
-                    pemerintahan Raja Hizkia, tidak dapat ditundukkan semudah kerajaan-kerajaan di kawasan utara Syam.
-                    Oleh karena itu angkatan perang Asyur dikerahkan menginvasi Yehuda. Menurut keterangan Alkitab,
-                    Malaikat Tuhan dikatakan telah menggagalkan pengepungan Yerusalem dengan cara menumpas angkatan
-                    perang Asyur. Meskipun demikian, dari sudut pandang sejarah, Asyur kemungkinan besar tidak
-                    dikalahkan, karena Hizkia menyerah kepada Sanherib di akhir kampanye militer itu. Lebih lagi,
-                    peninggalan-peninggalan tertulis dari masa itu, termasuk yang ditulis musuh-musuh Asyur, tidak
-                    menyebutkan bahwa Asyur mengalami kekalahan di Yerusalem.
-                </p>
-                <p>
-                    Sanherib memindahkan ibu kota Asyur ke Niniwe, kota kediamannya saat masih berstatus putra mahkota.
-                    Untuk mengubah Niniwe menjadi kota yang dianggap pantas disebut ibu kota kemaharajaan, Sanherib
-                    memprakarsai proyek-proyek pembangunan yang paling ambisius sepanjang sejarah Abad Kuno. Ia
-                    memperluas kota itu, mendirikan tembok-tembok raksasa untuk melindunginya, membangun banyak kuil,
-                    dan membina taman kerajaan. Bangunan paling terkenal yang didirikan Sanherib di Niniwe adalah Istana
-                    Barat Daya, yang ia beri nama "Istana Tanpa Tanding". Selepas kemangkatan putra sulungnya,
-                    Asyur-nadin-syumi, Sanherib mengangkat putra keduanya, Arda-Mulisyi, menjadi putra mahkota. Pada
-                    tahun 684 SM, ia mengangkat putra ketiganya, Esarhadon, menjadi putra mahkota menggantikan
-                    Arda-Mulisyi, meskipun alasan penggantian tidak diketahui. Sanherib tidak menggubris permohonan
-                    berulang Arda-Mulisyi untuk diangkat kembali menjadi putra mahkota. Kemudian, pada tahun 681 SM,
-                    Arda-Mulisyi bersama adiknya, Nabu-syar-usur, membunuh Sanherib dengan harapan akan menguasai
-                    takhta. Kerajaan Babel maupun kerajaan-kerajaan di Syam memandang kematian Sanherib sebagai azab
-                    ilahi, sementara bangsa Asyur mungkin sekali sangat terpukul. Penobatan Arda-Mulisyi pun
-                    ditangguhkan. Sementara itu, Esarhadon membentuk angkatan perang sendiri, merebut kota Niniwe, dan
-                    naik takhta menjadi Raja Asyur sesuai keinginan mendiang ayahnya.
-                </p>
+            <div class="artikelFull_anak" id="artikel_4">
+                <span class="span1">
+                    Artikel 4
+                </span>
+                <h2 class="judulfull">
+                    Sanherib, Maharaja Asyur yang Sangat Berpengaruh
+                </h2>
+                <div class="isiGambar">
+                    <img class="gambarFull" src="gambar_source/Sanherib.jpg" alt="">
+                    <p>
+                        Sanherib (aksara paku Asyur Baru: Sanherib pada silinder Rassam cylinder kolom pertama baris
+                        ke-25
+                        Sîn-ahhī-erība atau Sîn-aḥḥē-erība, artinya "Sîn sudah mengganti saudara-saudaraku yang telah
+                        tiada") adalah Maharaja Asyur Baru yang memerintah sejak kemangkatan ayahnya, Sargon II, pada
+                        tahun 705 SM sampai dengan akhir hayatnya pada tahun 681 SM. Raja kedua dari Wangsa Sargon ini
+                        terbilang salah seorang Raja Asyur yang paling ternama karena sepak terjangnya tercatat di dalam
+                        Alkitab Perjanjian Lama, yakni kampanye militer yang dilancarkannya di Syam. Peristiwa-peristiwa
+                        lain yang berlangsung pada masa pemerintahannya adalah penghancuran kota Babel pada tahun 689
+                        SM,
+                        dan pemugaran sekaligus pemekaran kota besar Niniwe, ibu kota terakhir bangsa Asyur.
+                    </p>
+                    <p>
+                        Sekalipun terbilang salah seorang Raja Asyur yang paling berkuasa, Sanherib tetap saja kewalahan
+                        mengendalikan Kerajaan Babel yang merupakan bagian selatan dari wilayah Kemaharajaan Asyur Baru.
+                        Biang keladi sebagian besar masalah di Babel adalah Marduk-apla-idina II, pemimpin orang Kasdim
+                        yang menjadi Raja Babel sebelum ditaklukkan ayah Sanherib. Tidak lama sesudah Sanherib naik
+                        takhta
+                        pada tahun 705 SM, Marduk-apla-idina merebut Babel dan menjalin persekutuan dengan orang Elam.
+                        Meskipun Sanherib berhasil menguasai kembali kawasan selatan pada tahun 700 SM,
+                        Marduk-apla-idina
+                        masih terus merongrong kekuasaannya, kemungkinan besar dengan cara menghasut raja-raja bawahan
+                        Asyur
+                        di Syam untuk memberontak sehingga menyulut Perang Syam pada tahun 701 SM, maupun dengan jalan
+                        memerangi Bel-ibni, Raja Babel yang diangkat Sanherib. Sesudah Babel dan Elam menawan dan
+                        menghukum
+                        mati Asyur-nadin-syumi, putra sulung Sanherib yang diangkat menjadi raja baru Babel, Sanherib
+                        memerangi kedua kerajaan itu, bahkan berhasil menaklukkan Elam. Karena Babel berada di dalam
+                        wilayah
+                        kedaulatannya, sudah berulang kali harus ia perangi, dan sudah merenggut nyawa putranya,
+                        Sanherib
+                        akhirnya menghancurkan kota itu pada tahun 689 SM.
+                    </p>
+                    <p>
+                        Dalam Perang Syam, kerajaan-kerajaan di kawasan selatan Syam, khususnya Kerajaan Yehuda di bawah
+                        pemerintahan Raja Hizkia, tidak dapat ditundukkan semudah kerajaan-kerajaan di kawasan utara
+                        Syam.
+                        Oleh karena itu angkatan perang Asyur dikerahkan menginvasi Yehuda. Menurut keterangan Alkitab,
+                        Malaikat Tuhan dikatakan telah menggagalkan pengepungan Yerusalem dengan cara menumpas angkatan
+                        perang Asyur. Meskipun demikian, dari sudut pandang sejarah, Asyur kemungkinan besar tidak
+                        dikalahkan, karena Hizkia menyerah kepada Sanherib di akhir kampanye militer itu. Lebih lagi,
+                        peninggalan-peninggalan tertulis dari masa itu, termasuk yang ditulis musuh-musuh Asyur, tidak
+                        menyebutkan bahwa Asyur mengalami kekalahan di Yerusalem.
+                    </p>
+                    <p>
+                        Sanherib memindahkan ibu kota Asyur ke Niniwe, kota kediamannya saat masih berstatus putra
+                        mahkota.
+                        Untuk mengubah Niniwe menjadi kota yang dianggap pantas disebut ibu kota kemaharajaan, Sanherib
+                        memprakarsai proyek-proyek pembangunan yang paling ambisius sepanjang sejarah Abad Kuno. Ia
+                        memperluas kota itu, mendirikan tembok-tembok raksasa untuk melindunginya, membangun banyak
+                        kuil,
+                        dan membina taman kerajaan. Bangunan paling terkenal yang didirikan Sanherib di Niniwe adalah
+                        Istana
+                        Barat Daya, yang ia beri nama "Istana Tanpa Tanding". Selepas kemangkatan putra sulungnya,
+                        Asyur-nadin-syumi, Sanherib mengangkat putra keduanya, Arda-Mulisyi, menjadi putra mahkota. Pada
+                        tahun 684 SM, ia mengangkat putra ketiganya, Esarhadon, menjadi putra mahkota menggantikan
+                        Arda-Mulisyi, meskipun alasan penggantian tidak diketahui. Sanherib tidak menggubris permohonan
+                        berulang Arda-Mulisyi untuk diangkat kembali menjadi putra mahkota. Kemudian, pada tahun 681 SM,
+                        Arda-Mulisyi bersama adiknya, Nabu-syar-usur, membunuh Sanherib dengan harapan akan menguasai
+                        takhta. Kerajaan Babel maupun kerajaan-kerajaan di Syam memandang kematian Sanherib sebagai azab
+                        ilahi, sementara bangsa Asyur mungkin sekali sangat terpukul. Penobatan Arda-Mulisyi pun
+                        ditangguhkan. Sementara itu, Esarhadon membentuk angkatan perang sendiri, merebut kota Niniwe,
+                        dan
+                        naik takhta menjadi Raja Asyur sesuai keinginan mendiang ayahnya.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="artikelFull_anak" id="artikel_5">
-            <span>
-                Artikel 5
-            </span>
-            <h2 class="judulfull">
-                Tokoh Reformasi Ottoman: Kisah Mehmed Talaat Pasha
-            </h2>
-            <div class="isiGambar">
-                <img class="gambarFull" src="gambar_source/Talat_Pasha.jpg" alt="">
-                <p>
-                    Mehmed Talaat Pasha (1 September 1874 - 15 Maret 1921) ialah salah satu tokoh dari 3 serangkai
-                    al-Ittihad wat Taroqqi Kesultanan Utsmaniyah. Talaat Pasha merupakan ketua Komite Persatuan dan
-                    Kemajuan, yang beroperasi sebagai kediktatoran partai tunggal di Utsmaniyah; selama Perang Dunia I
-                    ia menjadi Wazir Agung (Perdana Menteri).
-                </p>
-                <p>
-                    Pasha dilahirkan dari sebuah keluarga terkemuka tentara Ottoman. Posisinya di dalam masyarakat
-                    memungkinkannya memperoleh pendidikan yang terbaik. Ia lulus dari Sekolah Menengah Atas Edirne. Ia
-                    bergabung dengan staf perusahaan telegraf di Edirne, tetapi ia segera ditangkap pada 1893 karena
-                    aktivitas subversif politiknya. Ia aktif terlibat dalam gerakan perlawanan terhadap pemerintahan
-                    Sultan Abdülhamit II. Dua tahun kemudian ia dilepaskan dan diangkat menjadi kepala pos dan telegraf
-                    di Salonika dan memainkan peranan penting bagi gerakan Turki Muda.
-                </p>
-                <p>
-                    Antara 1898 dan 1908 ia bekerja sebagai pejabat pos di Kantor Pos Selanik dan akhirnya menjadi
-                    kepala Kantor Pos di situ. Pada 1908 ia dipecat karena menjadi anggota Komite Persatuan dan Kemajuan
-                    (KPK), benih permufakatan gerakan Turki Muda. Namun setelah Revolusi Turki Muda pada 1908, ia
-                    menjadi wakil Edirne di Parlemen Ottoman, dan pada Juli 1909 ia diangkat menjadi Menteri Dalam
-                    Negeri. Ia kemudian menjadi Menteri Pos dan belakangan sekretaris jenderal KPK pada 1912. Setelah
-                    pembunuhan Perdana Menteri Mahmut Sevket Pasha, Juli 1913, Talat Pasha sekali lagi menjadi Menteri
-                    Dalam Negeri di Kabinet Said Halim Pasa.
-                </p>
-                <p>
-                    Sebelum pecahnya Perang Dunia I, Talat berpihak dengan kekuatan Sekutu. Namun pada 1914, karena
-                    pengaruh Enver Paşa, menteri peperangan dan salah satu dari triumvirat, Kerajaan Ottoman ikut
-                    berperang dan memihak Jerman. Ini adalah langkah celaka. Talat, sebagai menteri dalam negeri, harus
-                    bertanggung jawab atas deportasi orang-orang Armenia dari provinsi-provinsi timur Kerajaan itu, yang
-                    terbuka kepeda pengaruh Rusia, ke Suriah dan Mesopotamia. Sebagian sejarawan mempersalahkannya atas
-                    operasi yang barbar itu. Pada 1917 ia menjadi Menteri Besar. Ia mengundurkan diri pada 14 Oktober
-                    1918, tak lama sebelum takluknya Ottoman kepada tentara Sekutu dan Perjanjian Mondros.
-                </p>
+            <div class="artikelFull_anak" id="artikel_5">
+                <span class="span1">
+                    Artikel 5
+                </span>
+                <h2 class="judulfull">
+                    Tokoh Reformasi Ottoman: Kisah Mehmed Talaat Pasha
+                </h2>
+                <div class="isiGambar">
+                    <img class="gambarFull" src="gambar_source/Talat_Pasha.jpg" alt="">
+                    <p>
+                        Mehmed Talaat Pasha (1 September 1874 - 15 Maret 1921) ialah salah satu tokoh dari 3 serangkai
+                        al-Ittihad wat Taroqqi Kesultanan Utsmaniyah. Talaat Pasha merupakan ketua Komite Persatuan dan
+                        Kemajuan, yang beroperasi sebagai kediktatoran partai tunggal di Utsmaniyah; selama Perang Dunia
+                        I
+                        ia menjadi Wazir Agung (Perdana Menteri).
+                    </p>
+                    <p>
+                        Pasha dilahirkan dari sebuah keluarga terkemuka tentara Ottoman. Posisinya di dalam masyarakat
+                        memungkinkannya memperoleh pendidikan yang terbaik. Ia lulus dari Sekolah Menengah Atas Edirne.
+                        Ia
+                        bergabung dengan staf perusahaan telegraf di Edirne, tetapi ia segera ditangkap pada 1893 karena
+                        aktivitas subversif politiknya. Ia aktif terlibat dalam gerakan perlawanan terhadap pemerintahan
+                        Sultan Abdülhamit II. Dua tahun kemudian ia dilepaskan dan diangkat menjadi kepala pos dan
+                        telegraf
+                        di Salonika dan memainkan peranan penting bagi gerakan Turki Muda.
+                    </p>
+                    <p>
+                        Antara 1898 dan 1908 ia bekerja sebagai pejabat pos di Kantor Pos Selanik dan akhirnya menjadi
+                        kepala Kantor Pos di situ. Pada 1908 ia dipecat karena menjadi anggota Komite Persatuan dan
+                        Kemajuan
+                        (KPK), benih permufakatan gerakan Turki Muda. Namun setelah Revolusi Turki Muda pada 1908, ia
+                        menjadi wakil Edirne di Parlemen Ottoman, dan pada Juli 1909 ia diangkat menjadi Menteri Dalam
+                        Negeri. Ia kemudian menjadi Menteri Pos dan belakangan sekretaris jenderal KPK pada 1912.
+                        Setelah
+                        pembunuhan Perdana Menteri Mahmut Sevket Pasha, Juli 1913, Talat Pasha sekali lagi menjadi
+                        Menteri
+                        Dalam Negeri di Kabinet Said Halim Pasa.
+                    </p>
+                    <p>
+                        Sebelum pecahnya Perang Dunia I, Talat berpihak dengan kekuatan Sekutu. Namun pada 1914, karena
+                        pengaruh Enver Paşa, menteri peperangan dan salah satu dari triumvirat, Kerajaan Ottoman ikut
+                        berperang dan memihak Jerman. Ini adalah langkah celaka. Talat, sebagai menteri dalam negeri,
+                        harus
+                        bertanggung jawab atas deportasi orang-orang Armenia dari provinsi-provinsi timur Kerajaan itu,
+                        yang
+                        terbuka kepeda pengaruh Rusia, ke Suriah dan Mesopotamia. Sebagian sejarawan mempersalahkannya
+                        atas
+                        operasi yang barbar itu. Pada 1917 ia menjadi Menteri Besar. Ia mengundurkan diri pada 14
+                        Oktober
+                        1918, tak lama sebelum takluknya Ottoman kepada tentara Sekutu dan Perjanjian Mondros.
+                    </p>
+                </div>
             </div>
-        </div>
+        </article>
     </main>
     <hr>
     <div class="komentar">

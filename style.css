@@ -1,3 +1,7 @@
+html {
+    background-color: #344955;
+}
+
 body {
     background-color: white;
     font-family: Lexend Deca;
@@ -9,6 +13,7 @@ svg {
     background-color: white;
 }
 
+/* navbar */
 .navigasi_full_nav {
     position: fixed;
     top: 0;
@@ -19,80 +24,87 @@ svg {
     width: 100%;
     height: 70px;
     font-size: large;
-    background-color: #50727B;
-
+    background-color: #50727bba;
+    filter: drop-shadow(2px 2px 2px black);
 }
 
+/* logo */
 .namaWeb_div {
     margin-left: 35px;
+    align-items: center;
+    display: flex;
 }
 
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+/* isi navbar, footer */
 li {
     list-style: none;
     display: inline;
     margin-right: 35px;
 }
 
+/* isi navbar (tag a) */
 .navigasi_tugas {
-
     padding: 5px 7px;
     background-color: #35374B;
     border-radius: 7px;
     text-decoration: none;
     color: #FFFFFF;
+    transition: 0.5s;
 }
 
-.barPencarian {
-    border: 1px solid #ddd;
-    border-radius: 3px;
-    padding: 5px;
-    width: 400px;
+.navigasi_tugas:hover {
+    background-color: #00ffff;
+    color: black;
 }
 
-.tombolCari {
-    padding: 5px 10px;
-    margin-left: 7px;
-    border: 1px solid #F7F7F7;
-    border-radius: 5px;
-    background-color: #CBE4DE;
-}
-
+/* tombol login sudut kanan */
 .login {
     background-color: #00f7ff;
-    color: #2E4F4F;
-    padding: 15px 20px;
-    border: 1px;
+    color: #1C3030;
+    padding: 12px;
+    border: none;
     border-radius: 5px;
+    font-weight: bold;
 }
 
-.pencarian_div {
-    display: flex;
-}
-
-article {
+/* div parent */
+.article {
     padding-top: 80px;
+    margin-right: 5%;
+    margin-left: 20px;
 }
 
-img {
+/* gambar pertama */
+.gambar {
     width: 160px;
     height: 160px;
     margin-right: 15px;
     align-items: center;
-
+    border-radius: 5px;
 }
 
+/*  */
 .list_artikel {
-    max-width: 800px;
-    margin: auto;
+    max-width: 80%;
+    left: 0;
 }
 
 .artikel_ {
     display: flex;
     margin-top: 30px;
+    transition: 0.5s;
+    padding: 10px;
 }
 
 .artikel_:hover {
-    transform: translateX(-45px);
+    transform: translateX(55px);
+    background-color: #344955;
+    border-radius: 5px;
 }
 
 span {
@@ -122,12 +134,11 @@ aside {
     margin-top: 90px;
     padding: 15px;
     position: fixed;
-    float: right;
     right: 0;
     border-radius: 5px;
     margin-right: 20px;
     max-width: 15%;
-    background-color: #50727B;
+    background-color: #50727ba9;
     filter: drop-shadow(1px 1px 3px black);
 }
 
@@ -136,7 +147,7 @@ aside {
     background-repeat: no-repeat;
     background-position: 10px 10px;
     padding: 10px 10px 10px 40px;
-    border: 1px;
+    border: none;
     border-radius: 5px;
     width: 75%;
     margin-bottom: 10px;
@@ -150,13 +161,18 @@ time {
     font-size: small;
     /* tanya */
     margin-bottom: 20px;
-    color: #EEEEEE;
+    color: #FFFFFF;
 }
 
 .populer_judul {
     margin-bottom: 0px;
     color: #FFFFFF;
-    font-weight: 300;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.populer_judul:hover {
+    color: #00f7ff;
 }
 
 
@@ -165,18 +181,12 @@ a.populer_ {
     margin-bottom: 50px;
 }
 
-.navigasi_full_nav a:hover {
-    background-color: #00ffff;
-    color: black;
-}
-
 .gelap {
     background-color: #35374B;
 }
 
 h1 {
     text-align: center;
-    color: black;
     font-size: 80px;
     font-family: Frank Ruhl Libre;
     padding: 20px;
@@ -185,43 +195,39 @@ h1 {
 }
 
 .judulfull {
-    color: black;
     margin-top: 5px;
 }
 
-main span {
-    color: black;
-}
-
 .artikelFull_anak {
-    max-width: 75%;
+    max-width: 77%;
     margin-left: 20px;
     padding-top: 40px;
 }
 
 .isiGambar p {
-    color: black;
     word-spacing: 1px;
     line-height: 25px;
 }
 
-img.gambarFull {
+.gambarFull {
     width: 350px;
     height: 350px;
     float: left;
     border-radius: 5px;
-    filter: drop-shadow(3px 3px 5px black);
+    /* filter: drop-shadow(3px 3px 5px black); */
     margin-right: 20px;
     margin-bottom: 15px;
 }
 
-.artikelFull_induk {
+.terang {
     background-color: white;
+    color: #232428;
 }
 
+/* komentar */
 .komentar {
     background-color: white;
-    color: black;
+    color: #232428;
     max-width: 55%;
     margin-left: 20px;
     padding-top: 40px;
@@ -242,7 +248,7 @@ form {
     margin-bottom: 10px;
     height: 40px;
     border-radius: 3px;
-    border: 1px solid #000000;
+    border: 1px solid #232428;
     padding: 0 15px;
 }
 
@@ -251,18 +257,25 @@ form {
     margin-bottom: 10px;
     height: 80px;
     border-radius: 3px;
-    border: 1px solid #000000;
+    border: 1px solid #232428;
     padding: 15px;
+    resize: none;
 }
 
+/* submit komentar */
 .submit {
     height: 40px;
-    background-color: #35374B;
+    background-color: #35374b7e;
     border: none;
     width: 40%;
     margin: auto;
     border-radius: 10px;
     color: white;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: #35374B;
 }
 
 footer {
@@ -275,12 +288,19 @@ footer {
     width: 32px;
     height: 32px;
     margin-right: 0;
+    transition: 0.5s;
 }
 
+.logo_sosmed img:hover {
+    transform: translateY(10px);
+}
+
+/* menu footer */
 .menu {
     padding: 30px;
 }
 
+/* copyright */
 .cr {
-    padding-bottom: 30px;
+    font-size: medium;
 }
