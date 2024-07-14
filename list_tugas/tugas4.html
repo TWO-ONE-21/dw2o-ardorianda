@@ -1,98 +1,116 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <link rel="stylesheet" href="global_style.css">
     <title>Tugas Formulir - Ardo Rianda</title>
 </head>
 
 <body>
-    <h2>Data Diri Mahasiswa Semester 2</h2>
-    <table border="0"; width="400">
+    <div class="kepala">
+        <h1>Tugas 4 - Membuat Form</h1>
+    </div>
+    <center>
+        <h2>Data Diri Mahasiswa Semester 2</h2>
+    </center>
+    <table width="100%" height="325px">
         <tr>
-            <td><b>Nama Lengkap</b></td>
-            <td><b>:</b></td>
-            <td>
-                <input type="text" size="25">
+            <td width="33%"></td>
+
+            <td width="33%" style="border: 1px solid;">
+                <table width="100%">
+                    <tr>
+                        <td><b>Nama Lengkap</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="text" size="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Tempat Lahir</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="text" size="25">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Tanggal Lahir</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="date">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Jenis Kelamin</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="radio" name="jenisKelamin" value="Laki-Laki">Laki-Laki
+                            <input type="radio" name="jenisKelamin" value="Perempuan">Perempuan
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Alamat</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                            <textarea cols="25" rows="3"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Nomor HP</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                            <input type="number">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Hobi</b></td>
+                        <td></td>
+                        <td>
+                            <input type="checkbox" value="">Nonton
+                            <input type="checkbox" value="">Tenis
+                            <input type="checkbox" value="">Bermain Game<br>
+                            <input type="checkbox" value="">Sepak Bola
+                            <input type="checkbox" value="">Travelling
+                            <input type="checkbox" value="">Lainnya
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Kelas</b></td>
+                        <td><b>:</b></td>
+                        <td>
+                        <select name="" id=""">
+                            <option value="">SI 2A</option>
+                            <option value="">SI 2B</option>
+                            <option value="">SI 2C</option>
+                            <option value="">SI 2D</option>
+                            <option value="">SI 2E</option>
+                            <option value="">SI 2F</option>
+                            <option value="">SI 2G</option>
+                            <option value="">SI 2H</option>
+                            <option value="">SI 2I</option>
+                            <option value="">SI 2J</option>
+                            <option value="">SI 2K</option>
+                            <option value="">SI 2L</option>
+                            <option value="">SI 2M</option>
+                            <option value="">SI 2N</option>
+                            <option value="">SI 2O</option>
+                            <option value="">SI 2P</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <center>
+                    <td colspan=" 3">
+                        <button type="submit">Kirim</button>
+                    </td>
+                    </center>
+                </tr>
+                </table>
             </td>
-        </tr>
-        <tr>
-            <td><b>Tempat Lahir</b></td>
-            <td><b>:</b></td>
-            <td>
-                <input type="text" size="25">
-            </td>
-        </tr>
-        <tr>
-            <td><b>Tanggal Lahir</b></td>
-            <td><b>:</b></td>
-            <td>
-                <input type="date">
-            </td>
-        </tr>
-        <tr>
-            <td><b>Jenis Kelamin</b></td>
-            <td><b>:</b></td>
-            <td>
-                <input type="radio" name="jenisKelamin" value="Laki-Laki">Laki-Laki
-                <input type="radio" name="jenisKelamin" value="Perempuan">Perempuan
-            </td>
-        </tr>
-        <tr>
-            <td><b>Alamat</b></td>
-            <td><b>:</b></td>
-            <td>
-                <textarea cols="25" rows="3"></textarea>
-            </td>
-        </tr>
-        <tr>
-            <td><b>Nomor HP</b></td>
-            <td><b>:</b></td>
-            <td>
-                <input type="number">
-            </td>
-        </tr>
-        <tr>
-            <td><b>Hobi</b></td>
-            <td><b>:</b></td>
-            <td>
-                <input type="checkbox" value="">Nonton
-                <input type="checkbox" value="">Tenis
-                <input type="checkbox" value="">Bermain Game<br>
-                <input type="checkbox" value="">Sepak Bola
-                <input type="checkbox" value="">Travelling
-                <input type="checkbox" value="">Lainnya
-            </td>
-        </tr>
-        <tr>
-            <td><b>Kelas</b></td>
-            <td><b>:</b></td>
-            <td>
-            <select name="" id=""">
-                <option value="">SI 2A</option>
-                <option value="">SI 2B</option>
-                <option value="">SI 2C</option>
-                <option value="">SI 2D</option>
-                <option value="">SI 2E</option>
-                <option value="">SI 2F</option>
-                <option value="">SI 2G</option>
-                <option value="">SI 2H</option>
-                <option value="">SI 2I</option>
-                <option value="">SI 2J</option>
-                <option value="">SI 2K</option>
-                <option value="">SI 2L</option>
-                <option value="">SI 2M</option>
-                <option value="">SI 2N</option>
-                <option value="">SI 2O</option>
-                <option value="">SI 2P</option>
-            </select>
-            </td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                <input type="submit" value="Submit">
-            </td>
+
+            <td width="33%"></td>
         </tr>
     </table>
 </body>
+
 </html>

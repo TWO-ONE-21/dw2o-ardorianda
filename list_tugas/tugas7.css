@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #153448;
+    color: rgb(179, 179, 179);
+    padding-top: 80px;
+}
+
+.kepala {
+    background-color: #3C5B6F;
+    padding: 20px;
+    text-align: center;
+    color: #fffbfb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    filter: drop-shadow(2px 2px 2px black);
+    font-family: Frank Ruhl Libre;
+}
+
+.gambar {
+    height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}
+
+h2 {
+    font-family: Lexend Deca;
+    margin-bottom: 15px;
+}
+
+p {
+    font-family: Lexend Deca;
+    word-spacing: 1px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.artikel {
+    margin: 20px 20px 40px 20px;
+
+}
+
+.tq {
+    background-color: #01204E;
+    padding: 20px;
+    text-align: center;
+    color: #fffbfb;
+    width: 100%;
+    box-shadow: 0 5px 5px -5px #333;
+    font-family: Frank Ruhl Libre;
+    box-shadow: 2px -2px 2px black;
+}
